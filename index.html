@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#values">Company Values</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Team Member Section -->
+    <section id="team">
+        <h2>Meet Our Team</h2>
+        <div class="team-member-cards">
+            <!-- Example Team Member Card -->
+            <div class="card">
+                <img src="profile1.jpg" alt="Profile Image">
+                <h3>John Doe</h3>
+                <p>Role: CEO</p>
+                <p>Short Bio: Passionate about leadership and growth.</p>
+            </div>
+            <div class="card">
+                <img src="profile2.jpg" alt="Profile Image">
+                <h3>Jane Smith</h3>
+                <p>Role: CTO</p>
+                <p>Short Bio: Expert in technology and innovation.</p>
+            </div>
+            <div class="card">
+                <img src="profile3.jpg" alt="Profile Image">
+                <h3>Michael Johnson</h3>
+                <p>Role: CFO</p>
+                <p>Short Bio: Financial strategist with a growth mindset.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Values Section -->
+    <section id="values">
+        <h2>Our Values</h2>
+        <div class="values-container">
+            <div class="value-card">
+                <img src="icon1.png" alt="Integrity Icon">
+                <h3>Integrity</h3>
+                <p>We value honesty and transparency in all our work.</p>
+            </div>
+            <div class="value-card">
+                <img src="icon2.png" alt="Innovation Icon">
+                <h3>Innovation</h3>
+                <p>We believe in continuously innovating to stay ahead.</p>
+            </div>
+            <div class="value-card">
+                <img src="icon3.png" alt="Collaboration Icon">
+                <h3>Collaboration</h3>
+                <p>Teamwork is key to achieving our goals together.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <button type="submit">Submit</button>
+        </form>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
